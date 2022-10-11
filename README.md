@@ -17,7 +17,7 @@ Tried to add the application I generated directly here, but file limit in Github
 
 ## (Optional) Change icon to MacOS Big Sur/Monterey style
 
-1. Right-click on your generated WhatsApp application -> Show package contents
-2. Open Contents -> Resources
+1. Right-click on your generated WhatsApp application -> **Show package contents**
+2. Open **Contents** -> **Resources**
 3. Replace `electron.icns` with the file in this repository
 4. If the change doesn't show immediately, move your WhatsApp application out of the current working directory to elsewhere. This should force MacOS to update the icon
