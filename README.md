@@ -11,7 +11,7 @@ Tried to add the application I generated directly here, but file limit in Github
 1. `npm install -g nativefier` (see https://github.com/nativefier/nativefier)
 2. Move `icon.icns` into your user directory
 3. Move `site.css` into your user directory
-3. Within your user directory, run `nativefier 'web.whatsapp.com' --inject site.css --title-bar-style 'hiddenInset' --icon icon.icns --name WhatsApp`
+3. Within your user directory, run `nativefier 'web.whatsapp.com' --inject site.css --title-bar-style 'hiddenInset' --icon icon.icns --name WhatsApp --counter true`
 4. Open generated folder and move **WhatsApp** application to your **Applications** folder
 5. Open it
 6. Open **Activity Monitor**, right-click on columns and ensure **Kind** is selected
