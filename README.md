@@ -9,15 +9,10 @@ Tried to add the application I generated directly here, but file limit in Github
 ## Install steps
 
 1. `npm install -g nativefier` (see https://github.com/nativefier/nativefier)
-2. `nativefier 'web.whatsapp.com'`
-3. Open generated folder and move **WhatsApp Web** application to your **Applications** folder
-4. Open it
-5. Open **Activity Monitor**, right-click on columns and ensure **Kind** is selected
-6. Search for WhatsApp to double check **Kind=Apple**. If yes, this is a Universal App ✅
-
-## (Optional) Change icon to MacOS Big Sur/Monterey style
-
-1. Right-click on your generated WhatsApp application -> **Show package contents**
-2. Open **Contents** -> **Resources**
-3. Replace `electron.icns` with the file in this repository
-4. If the change doesn't show immediately, move your WhatsApp application out of the current working directory to elsewhere. This should force MacOS to update the icon
+2. Move `icon.icns` into your user directory
+3. Move `site.css` into your user directory
+3. Within your user directory, run `nativefier 'web.whatsapp.com' --inject site.css --title-bar-style 'hiddenInset' --icon icon.icns --name WhatsApp`
+4. Open generated folder and move **WhatsApp Web** application to your **Applications** folder
+5. Open it
+6. Open **Activity Monitor**, right-click on columns and ensure **Kind** is selected
+7. Search for WhatsApp to double check **Kind=Apple**. If yes, this is a Universal App ✅
